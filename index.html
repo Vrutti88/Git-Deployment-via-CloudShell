@@ -1,10 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My Cloud Project</title>
+<meta charset="UTF-8">
+<title>Cloud Deployment Project</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg,#1e3c72,#2a5298);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+nav{
+    text-align:center;
+    background:#00000030;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+}
+
+section{
+    padding:40px;
+    text-align:center;
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    color:black;
+    width:250px;
+    margin:15px;
+    padding:20px;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#00000040;
+}
+
+</style>
+
 </head>
+
 <body>
-<h1>Hello from AWS Cloud Project</h1>
-<p>Deployed using Git + CloudShell + S3</p>
+
+<header>
+<h1>Cloud Computing Deployment</h1>
+<p>Static Website Hosted Using AWS S3 + CloudShell + Git</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Project</a>
+<a href="#">Contact</a>
+</nav>
+
+<section>
+
+<h2>About This Project</h2>
+
+<p>
+This website demonstrates a simple cloud deployment workflow using
+GitHub, AWS CloudShell, and Amazon S3 static hosting.
+</p>
+
+</section>
+
+<section>
+
+<h2>Technologies Used</h2>
+
+<div class="card-container">
+
+<div class="card">
+<h3>GitHub</h3>
+<p>Source code version control and repository hosting.</p>
+</div>
+
+<div class="card">
+<h3>AWS CloudShell</h3>
+<p>Command-line environment used to deploy the project.</p>
+</div>
+
+<div class="card">
+<h3>Amazon S3</h3>
+<p>Cloud storage used for static website hosting.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Project Workflow</h2>
+
+<p>
+Developer → GitHub Repository → AWS CloudShell → S3 Bucket → Public Website
+</p>
+
+</section>
+
+<footer>
+
+<p>Cloud Computing Case Study Project | 2026</p>
+
+</footer>
+
 </body>
 </html>
